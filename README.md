@@ -29,7 +29,7 @@ void main()
     scanf("%s", plain); 
     printf("\n Enter the key value:"); 
     scanf("%d", &key); 
-    printf("\n \n \t PLAIN TEXt: %s", plain); 
+    printf("\n \n \t PLAIN TEXT: %s", plain); 
     printf("\n \n \t ENCRYPTED TEXT:"); 
     for(i=0, length = strlen(plain); i<length; i++) 
     { 
